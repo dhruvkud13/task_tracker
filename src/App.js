@@ -80,7 +80,6 @@ const res= await fetch('http://localhost:5000/tasks',{
   return (
     <Router>
     <div className="container">
-      <h1>hellooooo</h1>
       <Header onAdd={() => setShowAddTask(!showAddTask)} showAdd={showAddTask} />
 
       <Routes>
